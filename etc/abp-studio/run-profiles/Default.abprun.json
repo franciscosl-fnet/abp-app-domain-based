@@ -1,0 +1,25 @@
+﻿{
+  "applications": {
+    "AbpSolution1.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44397",
+      "path": "../../../src/AbpSolution1.HttpApi.Host/AbpSolution1.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 4
+      }
+    },
+    "AbpSolution1.Blazor": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44366",
+      "path": "../../../src/AbpSolution1.Blazor/AbpSolution1.Blazor.csproj",
+      "healthCheckEndpoint": "/",
+      "kubernetesService": ".*-blazor$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

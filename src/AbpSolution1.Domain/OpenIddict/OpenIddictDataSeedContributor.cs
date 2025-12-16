@@ -317,14 +317,23 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
         {
             foreach (var redirectUri in redirectUris!.Where(redirectUri => !redirectUri.IsNullOrWhiteSpace()))
             {
-                if (!Uri.TryCreate(redirectUri, UriKind.Absolute, out var uri) || !uri.IsWellFormedOriginalString())
+                // Permitir placeholders {0} para wildcard domains
+                var uriToValidate = redirectUri.Replace("{0}", "tenant");
+                
+                if (!Uri.TryCreate(uriToValidate, UriKind.Absolute, out var uri) || !uri.IsWellFormedOriginalString())
                 {
                     throw new BusinessException(L["InvalidRedirectUri", redirectUri]);
                 }
 
-                if (application.RedirectUris.All(x => x != uri))
+                // Usar el URI original con placeholder para guardarlo
+                if (!Uri.TryCreate(redirectUri, UriKind.Absolute, out var originalUri))
                 {
-                    application.RedirectUris.Add(uri);
+                    originalUri = new Uri(uriToValidate); // Fallback para placeholders
+                }
+
+                if (application.RedirectUris.All(x => x.ToString() != redirectUri))
+                {
+                    application.RedirectUris.Add(originalUri);
                 }
             }
             
@@ -334,15 +343,24 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
         {
             foreach (var postLogoutRedirectUri in postLogoutRedirectUris!.Where(postLogoutRedirectUri => !postLogoutRedirectUri.IsNullOrWhiteSpace()))
             {
-                if (!Uri.TryCreate(postLogoutRedirectUri, UriKind.Absolute, out var uri) ||
+                // Permitir placeholders {0} para wildcard domains
+                var uriToValidate = postLogoutRedirectUri.Replace("{0}", "tenant");
+                
+                if (!Uri.TryCreate(uriToValidate, UriKind.Absolute, out var uri) ||
                     !uri.IsWellFormedOriginalString())
                 {
                     throw new BusinessException(L["InvalidPostLogoutRedirectUri", postLogoutRedirectUri]);
                 }
 
-                if (application.PostLogoutRedirectUris.All(x => x != uri))
+                // Usar el URI original con placeholder para guardarlo
+                if (!Uri.TryCreate(postLogoutRedirectUri, UriKind.Absolute, out var originalUri))
                 {
-                    application.PostLogoutRedirectUris.Add(uri);
+                    originalUri = new Uri(uriToValidate); // Fallback para placeholders
+                }
+
+                if (application.PostLogoutRedirectUris.All(x => x.ToString() != postLogoutRedirectUri))
+                {
+                    application.PostLogoutRedirectUris.Add(originalUri);
                 }
             }
         }

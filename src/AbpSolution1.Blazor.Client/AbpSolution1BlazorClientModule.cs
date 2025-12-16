@@ -23,6 +23,7 @@ using Volo.Abp.SettingManagement.Blazor.WebAssembly;
 using Volo.Abp.FeatureManagement.Blazor.WebAssembly;
 using Volo.Abp.TenantManagement.Blazor.WebAssembly;
 using Volo.Abp.Identity.Blazor.WebAssembly;
+using Volo.Abp.Http.Client;
 
 namespace AbpSolution1.Blazor.Client;
 
@@ -86,12 +87,21 @@ public class AbpSolution1BlazorClientModule : AbpModule
 
     private static void ConfigureAuthentication(WebAssemblyHostBuilder builder)
     {
+        var baseUrl = builder.HostEnvironment.BaseAddress;
+        var authority = builder.Configuration["AuthServer:Authority"];
+        
+        // Convertir la Authority con el subdominio del tenant actual
+        var tenantAuthority = TenantSubdomainHelper.ConvertToTenantSubDomain(baseUrl, authority);
+        
         builder.Services.AddOidcAuthentication(options =>
         {
             builder.Configuration.Bind("AuthServer", options.ProviderOptions);
             options.UserOptions.NameClaim = OpenIddictConstants.Claims.Name;
             options.UserOptions.RoleClaim = OpenIddictConstants.Claims.Role;
 
+            // Usar la Authority con el subdominio del tenant
+            options.ProviderOptions.Authority = tenantAuthority;
+            
             options.ProviderOptions.DefaultScopes.Add("AbpSolution1");
             options.ProviderOptions.DefaultScopes.Add("roles");
             options.ProviderOptions.DefaultScopes.Add("email");
@@ -99,11 +109,24 @@ public class AbpSolution1BlazorClientModule : AbpModule
         });
     }
     
-    private static void ConfigureHttpClient(ServiceConfigurationContext context, IWebAssemblyHostEnvironment environment)
+    private void ConfigureHttpClient(ServiceConfigurationContext context, IWebAssemblyHostEnvironment environment)
     {
+        var builder = context.Services.GetSingletonInstance<WebAssemblyHostBuilder>();
+        var baseUrl = environment.BaseAddress;
+        var remoteServiceBaseUrl = builder.Configuration["RemoteServices:Default:BaseUrl"];
+        
+        // Convertir la BaseUrl con el subdominio del tenant actual
+        var tenantBaseUrl = TenantSubdomainHelper.ConvertToTenantSubDomain(baseUrl, remoteServiceBaseUrl);
+        
         context.Services.AddTransient(sp => new HttpClient
         {
             BaseAddress = new Uri(environment.BaseAddress)
+        });
+        
+        // Configurar RemoteServices con el subdominio del tenant
+        Configure<AbpRemoteServiceOptions>(options =>
+        {
+            options.RemoteServices.Default = new RemoteServiceConfiguration(tenantBaseUrl);
         });
     }
 

@@ -39,6 +39,8 @@ using Volo.Abp.OpenIddict;
 using Volo.Abp.Swashbuckle;
 using Volo.Abp.Studio.Client.AspNetCore;
 using Volo.Abp.Security.Claims;
+using Volo.Abp.OpenIddict.WildcardDomains;
+using Volo.Abp.MultiTenancy;
 
 namespace AbpSolution1;
 
@@ -60,6 +62,17 @@ public class AbpSolution1HttpApiHostModule : AbpModule
     {
         var hostingEnvironment = context.Services.GetHostingEnvironment();
         var configuration = context.Services.GetConfiguration();
+
+        // Configurar soporte para dominios wildcard (subdominios por tenant)
+        PreConfigure<AbpOpenIddictWildcardDomainOptions>(options =>
+        {
+            options.EnableWildcardDomainSupport = true;
+            // Agregar formatos de autoridad para desarrollo local
+            options.WildcardDomainsFormat.Add("https://{0}.localhost:44397");
+            options.WildcardDomainsFormat.Add("http://{0}.localhost:44397");
+            // Para producción, agregar dominios reales:
+            // options.WildcardDomainsFormat.Add("https://{0}.midominio.com");
+        });
 
         PreConfigure<OpenIddictBuilder>(builder =>
         {
@@ -111,6 +124,7 @@ public class AbpSolution1HttpApiHostModule : AbpModule
         }
 
         ConfigureAuthentication(context);
+        ConfigureTenantResolvers(context);
         ConfigureUrls(configuration);
         ConfigureBundles();
         ConfigureConventionalControllers();
@@ -118,6 +132,18 @@ public class AbpSolution1HttpApiHostModule : AbpModule
         ConfigureSwagger(context, configuration);
         ConfigureVirtualFileSystem(context);
         ConfigureCors(context, configuration);
+    }
+
+    private void ConfigureTenantResolvers(ServiceConfigurationContext context)
+    {
+        // Configurar resolución de tenant por subdominio
+        Configure<AbpTenantResolveOptions>(options =>
+        {
+            // Para desarrollo local con subdominios
+            options.AddDomainTenantResolver("{0}.localhost:44397");
+            // Para producción:
+            // options.AddDomainTenantResolver("{0}.midominio.com");
+        });
     }
 
     private void ConfigureAuthentication(ServiceConfigurationContext context)

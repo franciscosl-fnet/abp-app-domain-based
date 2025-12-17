@@ -10,6 +10,7 @@ using AbpSolution1.Blazor.Client.Navigation;
 using Localization.Resources.AbpUi;
 using Volo.Abp.Localization;
 using AbpSolution1.Localization;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using OpenIddict.Abstractions;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
 using Volo.Abp.Autofac.WebAssembly;
@@ -27,6 +28,7 @@ using Volo.Abp.Identity.Blazor.WebAssembly;
 using Volo.Abp.Http.Client;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Text.Formatting;
+using Volo.Abp.Threading;
 
 namespace AbpSolution1.Blazor.Client;
 
@@ -53,11 +55,6 @@ public class AbpSolution1BlazorClientModule : AbpModule
         ConfigureRouter(context);
         ConfigureMenu(context);
         ConfigureAutoMapper(context);
-
-        Configure<WebAssemblyMultiTenantUrlOptions>(options =>
-        {
-            options.DomainFormat = "https://{0}.localhost:44366"; //App:SelfUrl in appsettings.json
-        });
     }
 
     private void ConfigureLocalization()
@@ -95,13 +92,6 @@ public class AbpSolution1BlazorClientModule : AbpModule
 
     private static void ConfigureAuthentication(WebAssemblyHostBuilder builder)
     {
-        var baseUrl = builder.HostEnvironment.BaseAddress;
-        var authority = builder.Configuration["AuthServer:Authority"];
-
-        var format = "https://{0}.localhost:44366";
-        var extractResult = FormattedStringValueExtracter.Extract(baseUrl, format, ignoreCase: true);
-        authority = extractResult.IsMatch ? authority.Replace("{0}", extractResult.Matches[0].Value) : authority.Replace("{0}.", "");
-
         builder.Services.AddOidcAuthentication(options =>
         {
             builder.Configuration.Bind("AuthServer", options.ProviderOptions);
@@ -109,13 +99,21 @@ public class AbpSolution1BlazorClientModule : AbpModule
             options.UserOptions.NameClaim = OpenIddictConstants.Claims.Name;
             options.UserOptions.RoleClaim = OpenIddictConstants.Claims.Role;
 
-            // Usar la Authority con el subdominio del tenant
-            options.ProviderOptions.Authority = authority;
-
             options.ProviderOptions.DefaultScopes.Add("AbpSolution1");
             options.ProviderOptions.DefaultScopes.Add("roles");
             options.ProviderOptions.DefaultScopes.Add("email");
             options.ProviderOptions.DefaultScopes.Add("phone");
+        });
+
+        builder.Services.Configure<WebAssemblyMultiTenantUrlOptions>(options =>
+        {
+            options.DomainFormat = "https://{0}.localhost";
+        });
+
+        builder.Services.AddOptions<RemoteAuthenticationOptions<OidcProviderOptions>>().Configure<IServiceProvider>((mvcOptions, serviceProvider) =>
+        {
+            var multiTenantUrlProvider = serviceProvider.GetRequiredService<IMultiTenantUrlProvider>();
+            mvcOptions.ProviderOptions.Authority = AsyncHelper.RunSync(() => multiTenantUrlProvider.GetUrlAsync(mvcOptions.ProviderOptions.Authority!));
         });
     }
 

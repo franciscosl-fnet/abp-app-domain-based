@@ -1,0 +1,1564 @@
+2025-12-17 12:11:37.860 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:37.920 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:37.939 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:37.939 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:37.956 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:37.956 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Translations/GetTranslationsByAppId?*
+2025-12-17 12:11:38.493 +01:00 [INF] Received HTTP response headers after 532.2618ms - 200
+2025-12-17 12:11:38.526 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 555.804ms
+2025-12-17 12:11:38.543 +01:00 [INF] End processing HTTP request after 587.0606ms - 200
+2025-12-17 12:11:38.762 +01:00 [INF] Received HTTP response headers after 822.8594ms - 200
+2025-12-17 12:11:38.762 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 823.1088ms
+2025-12-17 12:11:38.762 +01:00 [INF] End processing HTTP request after 823.8858ms - 200
+2025-12-17 12:11:38.991 +01:00 [INF] Received HTTP response headers after 1071.196ms - 200
+2025-12-17 12:11:38.991 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 1099.528ms
+2025-12-17 12:11:38.991 +01:00 [INF] End processing HTTP request after 1139.1528ms - 200
+2025-12-17 12:11:39.094 +01:00 [INF] Loaded ABP modules:
+2025-12-17 12:11:39.094 +01:00 [INF] - Fundanet.Arco.Core.Samples.HttpApi.Host.SamplesHttpApiHostModule
+2025-12-17 12:11:39.094 +01:00 [INF]   - Fundanet.Arco.Core.Samples.HttpApi.SamplesHttpApiModule
+2025-12-17 12:11:39.094 +01:00 [INF]     - Fundanet.Arco.Core.HttpApi.ArcoCoreHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Users.AbpUsersDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Validation.AbpValidationModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                     - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2025-12-17 12:11:39.095 +01:00 [INF]                     - Volo.Abp.Data.AbpDataModule
+2025-12-17 12:11:39.095 +01:00 [INF]                       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-12-17 12:11:39.095 +01:00 [INF]                       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-12-17 12:11:39.095 +01:00 [INF]                       - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Features.AbpFeaturesModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]                   - Volo.Abp.Timing.AbpTimingModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Account.AbpAccountAdminHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Saas.Host.SaasHostHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Saas.Host.SaasHostApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Saas.SaasDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Payment.AbpPaymentDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Payment.AbpPaymentApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Account.AbpAccountPublicHttpApiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Account.AbpAccountPublicApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Emailing.AbpEmailingModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2025-12-17 12:11:39.095 +01:00 [INF]               - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2025-12-17 12:11:39.095 +01:00 [INF]                 - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Fundanet.Arco.Core.Samples.Application.Contracts.SamplesApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Fundanet.Arco.Core.Application.Contracts.Abp.ArcoCoreApplicationContractsModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Fundanet.Arco.Core.Samples.Domain.Shared.SamplesDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Fundanet.Arco.Core.Domain.Shared.Abp.ArcoCoreDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Fundanet.Arco.Core.Samples.Application.SamplesApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Fundanet.Arco.Core.Application.Abp.ArcoCoreAbpApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.Users.AbpUsersDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Ldap.AbpLdapModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Saas.Host.SaasHostApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Saas.SaasDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Account.AbpAccountPublicApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Account.AbpAccountSharedApplicationModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Sms.AbpSmsModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Imaging.AbpImagingImageSharpModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Imaging.AbpImagingAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Fundanet.Arco.Core.Samples.Domain.SamplesDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Fundanet.Arco.Core.Domain.ArcoCoreDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Fundanet.Arco.Core.Samples.EntityFrameworkCore.EntityFrameworkCore.SamplesEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Fundanet.Arco.Core.EntityFrameworkCore.Abp.ArcoCoreEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Fundanet.Arco.Core.Samples.Infrastructure.SamplesInfrastructureModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Fundanet.Arco.Core.Samples.Infrastructure.Shared.SamplesInfrastructureSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Fundanet.Arco.Core.Infrastructure.Shared.Abp.ArcoCoreInfrastructureSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.AzureServiceBus.AbpAzureServiceBusModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.Lepton.AbpAspNetCoreMvcUiLeptonThemeModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-12-17 12:11:39.095 +01:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2025-12-17 12:11:39.095 +01:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-12-17 12:11:39.095 +01:00 [INF]             - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Commercial.AbpAspNetCoreMvcUiThemeCommercialModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.LeptonTheme.Management.LeptonThemeManagementDomainSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.Account.Public.Web.Impersonation.AbpAccountPublicWebImpersonationModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.AspNetCore.Authentication.OpenIdConnect.AbpAspNetCoreAuthenticationOpenIdConnectModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2025-12-17 12:11:39.095 +01:00 [INF]   - Volo.Abp.Account.Web.AbpAccountPublicWebOpenIddictModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.Account.Public.Web.AbpAccountPublicWebModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2025-12-17 12:11:39.095 +01:00 [INF]       - Volo.Abp.Account.Pro.Public.Web.Shared.AbpAccountPublicWebSharedModule
+2025-12-17 12:11:39.095 +01:00 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2025-12-17 12:11:41.494 +01:00 [WRN] The entity type 'RequestSnapshot' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-12-17 12:11:42.364 +01:00 [WRN] The entity type 'PostalCode' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+2025-12-17 12:11:42.370 +01:00 [WRN] The entity type 'ProjectMilestone.AnotherValueObject#AnotherValueObject' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+2025-12-17 12:11:42.505 +01:00 [WRN] The 'IncomingEventErrorStateId' property 'State' on entity type 'IncomingEventError' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'IncomingEventErrorStateId' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-12-17 12:11:42.511 +01:00 [WRN] No store type was specified for the decimal property 'EstimatedHours' on entity type 'Project'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 12:11:42.511 +01:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'ProjectMilestone.AnotherValueObject#AnotherValueObject'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 12:11:42.511 +01:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'ValueObjectWithRecursion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 12:11:42.511 +01:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'ValueObjectWithRecursion.AnotherValue#AnotherValueObject'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 12:11:43.340 +01:00 [INF] User profile is available. Using 'C:\Users\franciscosl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-17 12:11:43.626 +01:00 [INF] Initialized all ABP modules.
+2025-12-17 12:11:51.769 +01:00 [INF] Initializing UI Database
+2025-12-17 12:11:51.914 +01:00 [INF] Saving healthchecks configuration to database
+2025-12-17 12:11:52.285 +01:00 [INF] Now listening on: https://localhost:44393
+2025-12-17 12:11:52.333 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:11:52.334 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:11:52.341 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:11:52.341 +01:00 [INF] Hosting environment: Local
+2025-12-17 12:11:52.341 +01:00 [INF] Content root path: C:\Users\franciscosl\source\Fundanet.Arco.Core\src\Fundanet.Arco.Core.Samples.HttpApi.Host
+2025-12-17 12:11:52.379 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:11:52.379 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/ - null null
+2025-12-17 12:11:54.802 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:11:55.006 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:11:55.010 +01:00 [INF] Received HTTP response headers after 2676.0695ms - 200
+2025-12-17 12:11:55.010 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 2676.8494ms
+2025-12-17 12:11:55.010 +01:00 [INF] End processing HTTP request after 2677.0704ms - 200
+2025-12-17 12:11:55.037 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 2666.9996ms
+2025-12-17 12:11:56.116 +01:00 [INF] Executing endpoint 'Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetListAsync (Fundanet.Arco.Core.Samples.Application)'
+2025-12-17 12:11:56.146 +01:00 [INF] Route matched with {action = "GetList", controller = "ProjectTypeSubTypes", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Fundanet.Arco.Core.Samples.Application.Contracts.ProjectTypes.Dtos.ProjectTypeSubTypeForListDto]] GetListAsync(System.Guid, Fundanet.Arco.Core.Samples.Application.Contracts.ProjectTypes.Dtos.ProjectTypeSubTypeFilterDto) on controller Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService (Fundanet.Arco.Core.Samples.Application).
+2025-12-17 12:11:56.497 +01:00 [INF] Executing action method Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetListAsync (Fundanet.Arco.Core.Samples.Application) - Validation state: "Valid"
+2025-12-17 12:11:56.665 +01:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Entidad no encontrada (Tipo: 'ProjectType', ID: '00000000-0000-0000-0000-000000000000')",
+  "details": null,
+  "data": null,
+  "validationErrors": null
+}
+
+2025-12-17 12:11:56.666 +01:00 [ERR] There is no such an entity. Entity type: Fundanet.Arco.Core.Samples.Domain.ProjectTypes.ProjectType, id: 00000000-0000-0000-0000-000000000000
+Volo.Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Fundanet.Arco.Core.Samples.Domain.ProjectTypes.ProjectType, id: 00000000-0000-0000-0000-000000000000
+   at Fundanet.Arco.Core.EntityFrameworkCore.Abp.Repositories.ArcoRepository`2.GetMappedChildListAsync[TChildEntity,TMappedChildEntity](ChildEntityListFilter filter, Expression`1 collectionSelector, Expression`1 mappedExpression, Specification`1 specification) in C:\Users\franciscosl\source\Fundanet.Arco.Core\libs\Fundanet.Arco.Core.EntityFrameworkCore.Abp\Repositories\ArcoRepository.cs:line 432
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Fundanet.Arco.Core.Application.Abp.BaseAppServices.BaseCollectionEntityCrudAppService`7.GetListAsync(Guid rootId, TFilterInput input) in C:\Users\franciscosl\source\Fundanet.Arco.Core\libs\Fundanet.Arco.Core.Application.Abp\BaseAppServices\BaseCollectionEntityCrudAppService.cs:line 131
+   at lambda_method5443(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-12-17 12:11:56.680 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2025-12-17 12:11:56.692 +01:00 [INF] Executed action Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetListAsync (Fundanet.Arco.Core.Samples.Application) in 538.5481ms
+2025-12-17 12:11:56.692 +01:00 [INF] Executed endpoint 'Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetListAsync (Fundanet.Arco.Core.Samples.Application)'
+2025-12-17 12:11:56.902 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/ - 404 null application/json; charset=utf-8 4530.7784ms
+2025-12-17 12:11:56.926 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/favicon.ico - null null
+2025-12-17 12:11:56.946 +01:00 [INF] Executing endpoint 'Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetAsync (Fundanet.Arco.Core.Samples.Application)'
+2025-12-17 12:11:56.949 +01:00 [INF] Route matched with {action = "Get", controller = "ProjectTypeSubTypes", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Fundanet.Arco.Core.Samples.Application.Contracts.ProjectTypes.Dtos.ProjectTypeSubTypeDto] GetAsync(System.Guid, System.Guid) on controller Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService (Fundanet.Arco.Core.Samples.Application).
+2025-12-17 12:11:56.959 +01:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "ValidationErrorMessage",
+  "details": "ValidationNarrativeErrorMessageTitle\r\n - The value 'favicon.ico' is not valid.\r\n",
+  "data": {},
+  "validationErrors": [
+    {
+      "message": "The value 'favicon.ico' is not valid.",
+      "members": [
+        "id"
+      ]
+    }
+  ]
+}
+
+2025-12-17 12:11:56.959 +01:00 [WRN] ModelState is not valid! See ValidationErrors for details.
+Volo.Abp.Validation.AbpValidationException: ModelState is not valid! See ValidationErrors for details.
+   at Volo.Abp.AspNetCore.Mvc.Validation.ModelStateValidator.Validate(ModelStateDictionary modelState)
+   at Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-12-17 12:11:56.960 +01:00 [WRN] There are 1 validation errors:
+The value 'favicon.ico' is not valid. (id)
+
+2025-12-17 12:11:56.961 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2025-12-17 12:11:56.961 +01:00 [INF] Executed action Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetAsync (Fundanet.Arco.Core.Samples.Application) in 11.9932ms
+2025-12-17 12:11:56.961 +01:00 [INF] Executed endpoint 'Fundanet.Arco.Core.Samples.Application.ProjectTypes.SubTypes.ProjectTypeSubTypesAppService.GetAsync (Fundanet.Arco.Core.Samples.Application)'
+2025-12-17 12:11:56.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/favicon.ico - 400 null application/json; charset=utf-8 41.872ms
+2025-12-17 12:12:05.281 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:05.281 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:05.282 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:05.286 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:05.291 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:05.292 +01:00 [INF] Received HTTP response headers after 10.352ms - 200
+2025-12-17 12:12:05.292 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 10.5384ms
+2025-12-17 12:12:05.292 +01:00 [INF] End processing HTTP request after 10.7894ms - 200
+2025-12-17 12:12:05.292 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 9.7702ms
+2025-12-17 12:12:15.317 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:15.318 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:15.318 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:15.321 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:15.324 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:15.324 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 6.2303ms
+2025-12-17 12:12:15.325 +01:00 [INF] Received HTTP response headers after 7.7057ms - 200
+2025-12-17 12:12:15.326 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 8.0161ms
+2025-12-17 12:12:15.326 +01:00 [INF] End processing HTTP request after 8.2386ms - 200
+2025-12-17 12:12:25.334 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:25.335 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:25.335 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:25.339 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:25.343 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:25.343 +01:00 [INF] Received HTTP response headers after 8.6211ms - 200
+2025-12-17 12:12:25.343 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 8.7799ms
+2025-12-17 12:12:25.343 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 8.1808ms
+2025-12-17 12:12:25.343 +01:00 [INF] End processing HTTP request after 8.9967ms - 200
+2025-12-17 12:12:35.350 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:35.351 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:35.352 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:35.354 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:35.360 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:35.360 +01:00 [INF] Received HTTP response headers after 9.3707ms - 200
+2025-12-17 12:12:35.360 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 9.6751ms
+2025-12-17 12:12:35.360 +01:00 [INF] End processing HTTP request after 9.9378ms - 200
+2025-12-17 12:12:35.360 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 8.6849ms
+2025-12-17 12:12:45.363 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:45.363 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:45.364 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:45.368 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:45.373 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:45.373 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 9.0975ms
+2025-12-17 12:12:45.373 +01:00 [INF] Received HTTP response headers after 9.7672ms - 200
+2025-12-17 12:12:45.373 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 10.0219ms
+2025-12-17 12:12:45.373 +01:00 [INF] End processing HTTP request after 10.3274ms - 200
+2025-12-17 12:12:55.379 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:55.379 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:12:55.380 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:12:55.383 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:12:55.386 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:12:55.387 +01:00 [INF] Received HTTP response headers after 7.4414ms - 200
+2025-12-17 12:12:55.387 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 7.6326ms
+2025-12-17 12:12:55.387 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 6.9714ms
+2025-12-17 12:12:55.387 +01:00 [INF] End processing HTTP request after 7.8289ms - 200
+2025-12-17 12:13:02.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/.well-known/openid-configuration - null null
+2025-12-17 12:13:02.644 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:02.646 +01:00 [INF] The request URI matched a server endpoint: "Configuration".
+2025-12-17 12:13:02.653 +01:00 [INF] The configuration request was successfully extracted: {}.
+2025-12-17 12:13:02.655 +01:00 [INF] The configuration request was successfully validated.
+2025-12-17 12:13:02.846 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "issuer": "https://localhost:44393/",
+  "authorization_endpoint": "https://localhost:44393/connect/authorize",
+  "token_endpoint": "https://localhost:44393/connect/token",
+  "introspection_endpoint": "https://localhost:44393/connect/introspect",
+  "end_session_endpoint": "https://localhost:44393/connect/endsession",
+  "revocation_endpoint": "https://localhost:44393/connect/revocat",
+  "userinfo_endpoint": "https://localhost:44393/connect/userinfo",
+  "device_authorization_endpoint": "https://localhost:44393/device",
+  "jwks_uri": "https://localhost:44393/.well-known/jwks",
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "password",
+    "client_credentials",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "LinkLogin",
+    "Impersonation"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code id_token token",
+    "code token",
+    "id_token",
+    "id_token token",
+    "token",
+    "none"
+  ],
+  "response_modes_supported": [
+    "query",
+    "form_post",
+    "fragment"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "email",
+    "profile",
+    "phone",
+    "roles",
+    "address",
+    "Samples"
+  ],
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "prompt_values_supported": [
+    "consent",
+    "login",
+    "none",
+    "select_account"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "device_authorization_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "claims_parameter_supported": false,
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "tls_client_certificate_bound_access_tokens": false,
+  "authorization_response_iss_parameter_supported": true
+}.
+2025-12-17 12:13:02.850 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/.well-known/openid-configuration - 200 2436 application/json;charset=UTF-8 208.7087ms
+2025-12-17 12:13:02.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=899bbc8a4a3041eba07024614945f09e&code_challenge=ftYqqYKgbhYo1AQ5HUHB1OB_w7OJESMU0XZsO2VGXuI&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:02.860 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:02.867 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "899bbc8a4a3041eba07024614945f09e",
+  "code_challenge": "ftYqqYKgbhYo1AQ5HUHB1OB_w7OJESMU0XZsO2VGXuI",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:03.282 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:03.293 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:03.296 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:03.296 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:03.301 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:03.643 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 335.9891ms.
+2025-12-17 12:13:03.652 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:05.400 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:05.400 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:05.401 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:13:05.405 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:13:05.407 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:13:05.408 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 6.8369ms
+2025-12-17 12:13:05.408 +01:00 [INF] Received HTTP response headers after 7.3517ms - 200
+2025-12-17 12:13:05.408 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 7.5099ms
+2025-12-17 12:13:05.408 +01:00 [INF] End processing HTTP request after 7.7209ms - 200
+2025-12-17 12:13:07.199 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "899bbc8a4a3041eba07024614945f09e",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:07.212 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 3915.8729ms
+2025-12-17 12:13:07.212 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:07.228 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=899bbc8a4a3041eba07024614945f09e&code_challenge=ftYqqYKgbhYo1AQ5HUHB1OB_w7OJESMU0XZsO2VGXuI&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 4372.5388ms
+2025-12-17 12:13:07.378 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:07.380 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.381 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:07.388 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "17fa5a3a640c437fafe8d609ce7eca19790594db08424e5bb169c4f1cc0f14cc4f00fcb5db694a54b3f75d9d97cc0b8a",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:07.461 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:07.461 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 83.0685ms
+2025-12-17 12:13:07.512 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - null null
+2025-12-17 12:13:07.513 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.513 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - 204 null null 0.7365ms
+2025-12-17 12:13:07.514 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - null null
+2025-12-17 12:13:07.521 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.523 +01:00 [INF] Executing endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:07.525 +01:00 [INF] Route matched with {action = "GetStringResources", controller = "LocalizationService", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.String]] GetStringResourcesAsync(System.String) on controller Fundanet.Core.Server.Localization.LocalizationService (Fundanet.Core.Server).
+2025-12-17 12:13:07.530 +01:00 [INF] Executing action method Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server) - Validation state: "Valid"
+2025-12-17 12:13:07.530 +01:00 [INF] Executed action method Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1005ms.
+2025-12-17 12:13:07.531 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-17 12:13:07.544 +01:00 [INF] Executed action Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server) in 18.8662ms
+2025-12-17 12:13:07.544 +01:00 [INF] Executed endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:07.544 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - 200 null application/json; charset=utf-8 30.0991ms
+2025-12-17 12:13:07.702 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=152533acca684580a9f506918a36309f&code_challenge=dSqs46O5R3b7fAKkgJfcab9WTnNTTT0bDNfVThAele4&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:07.703 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:07.703 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "152533acca684580a9f506918a36309f",
+  "code_challenge": "dSqs46O5R3b7fAKkgJfcab9WTnNTTT0bDNfVThAele4",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:07.711 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:07.717 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:07.717 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:07.717 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:07.718 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:07.758 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 39.3639ms.
+2025-12-17 12:13:07.760 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:07.817 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "152533acca684580a9f506918a36309f",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:07.817 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 99.6312ms
+2025-12-17 12:13:07.817 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:07.823 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=152533acca684580a9f506918a36309f&code_challenge=dSqs46O5R3b7fAKkgJfcab9WTnNTTT0bDNfVThAele4&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 121.0117ms
+2025-12-17 12:13:07.972 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:07.972 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.972 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:07.973 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "2634d020f4a747d68162ef21332d870e7ae0863d497d4a8b911413d4602fc63f469105d1c63a47b3b86a091b5c3a3342",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:07.975 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:07.976 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.19ms
+2025-12-17 12:13:07.981 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2025-12-17 12:13:07.981 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.981 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 204 null null 0.5267ms
+2025-12-17 12:13:07.983 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2025-12-17 12:13:07.985 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:07.988 +01:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:07.993 +01:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2025-12-17 12:13:08.009 +01:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2025-12-17 12:13:08.293 +01:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 283.9636ms.
+2025-12-17 12:13:08.294 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2025-12-17 12:13:08.323 +01:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 329.9689ms
+2025-12-17 12:13:08.323 +01:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:08.324 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 200 null application/json; charset=utf-8 340.9075ms
+2025-12-17 12:13:08.537 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=22179dda083d46af9dc64997f5f90d20&code_challenge=lLdIBfcMI9-t3qFry44mhQJtZ90EY9PHFwc_piwnb0o&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:08.538 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:08.538 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "22179dda083d46af9dc64997f5f90d20",
+  "code_challenge": "lLdIBfcMI9-t3qFry44mhQJtZ90EY9PHFwc_piwnb0o",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:08.543 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:08.550 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:08.550 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:08.550 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:08.551 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:08.577 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 26.0077ms.
+2025-12-17 12:13:08.579 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:08.641 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "22179dda083d46af9dc64997f5f90d20",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:08.641 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 91.7147ms
+2025-12-17 12:13:08.641 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:08.647 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=22179dda083d46af9dc64997f5f90d20&code_challenge=lLdIBfcMI9-t3qFry44mhQJtZ90EY9PHFwc_piwnb0o&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 110.3763ms
+2025-12-17 12:13:08.761 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:08.762 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:08.762 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:08.762 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "6fff3a93484d4dafb0a6730fec945aeaaf60484e48094f09a8d8d6aeaaede7f0f519e4bb18e044bd98a28b455d109826",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:08.764 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:08.764 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 3.1151ms
+2025-12-17 12:13:08.769 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2025-12-17 12:13:08.769 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:08.769 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 204 null null 0.4049ms
+2025-12-17 12:13:08.770 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2025-12-17 12:13:08.771 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:08.772 +01:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:08.776 +01:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2025-12-17 12:13:08.783 +01:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2025-12-17 12:13:08.849 +01:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 66.1438ms.
+2025-12-17 12:13:08.849 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2025-12-17 12:13:08.850 +01:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 74.5253ms
+2025-12-17 12:13:08.850 +01:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:08.850 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 200 null application/json; charset=utf-8 80.1066ms
+2025-12-17 12:13:08.869 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=ed115b42e8e1415ea61fcb016235b193&code_challenge=3LMxTKsq_TxZv_Qcn3dOJcLo0SJqkzSMSQQmW-TyJrI&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:08.870 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:08.870 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "ed115b42e8e1415ea61fcb016235b193",
+  "code_challenge": "3LMxTKsq_TxZv_Qcn3dOJcLo0SJqkzSMSQQmW-TyJrI",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:08.874 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:08.880 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:08.880 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:08.880 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:08.881 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:08.909 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 27.7617ms.
+2025-12-17 12:13:08.912 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:08.973 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "ed115b42e8e1415ea61fcb016235b193",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:08.973 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 92.7363ms
+2025-12-17 12:13:08.973 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:08.979 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=ed115b42e8e1415ea61fcb016235b193&code_challenge=3LMxTKsq_TxZv_Qcn3dOJcLo0SJqkzSMSQQmW-TyJrI&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 109.6578ms
+2025-12-17 12:13:09.099 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:09.099 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:09.099 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:09.099 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "9e846159cf504ab38b904fe61402cfa28afb0603cfe34872ad35dad5aafca09a6bddb8f69c394ef0a3bd79bda67e32da",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:09.103 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:09.104 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 5.0392ms
+2025-12-17 12:13:09.138 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=2655d773ae5b42db9bc648474513a0af&code_challenge=3TYTJONN3P6sduJMMFuVgeeD-4QGVPbTtW_p-ayYnRQ&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:09.139 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:09.139 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "2655d773ae5b42db9bc648474513a0af",
+  "code_challenge": "3TYTJONN3P6sduJMMFuVgeeD-4QGVPbTtW_p-ayYnRQ",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:09.144 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:09.153 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:09.153 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:09.153 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:09.154 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:09.178 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 23.851ms.
+2025-12-17 12:13:09.178 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:09.208 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "2655d773ae5b42db9bc648474513a0af",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:09.208 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 54.9185ms
+2025-12-17 12:13:09.208 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:09.215 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=2655d773ae5b42db9bc648474513a0af&code_challenge=3TYTJONN3P6sduJMMFuVgeeD-4QGVPbTtW_p-ayYnRQ&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 77.3734ms
+2025-12-17 12:13:09.357 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:09.357 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:09.357 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:09.357 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "9f7ee517e48946398a25ff2d8ac5ab387b4dc2c62bec41958e499303c2ad1118d1bbb356335d4d1c80b687cce76b8cb4",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:09.360 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:09.361 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 3.8204ms
+2025-12-17 12:13:09.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0aed1f26b4a7418bbb6ad292234bf07b&code_challenge=6_9dhrA2AewC2OyIrnCKtPil8rr4GUaHd3tEDwbR0lU&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:09.372 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:09.372 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "0aed1f26b4a7418bbb6ad292234bf07b",
+  "code_challenge": "6_9dhrA2AewC2OyIrnCKtPil8rr4GUaHd3tEDwbR0lU",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:09.376 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:09.382 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:09.382 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:09.382 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:09.383 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:09.408 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 25.4166ms.
+2025-12-17 12:13:09.411 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:09.439 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "0aed1f26b4a7418bbb6ad292234bf07b",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:09.439 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 57.19ms
+2025-12-17 12:13:09.439 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:09.443 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0aed1f26b4a7418bbb6ad292234bf07b&code_challenge=6_9dhrA2AewC2OyIrnCKtPil8rr4GUaHd3tEDwbR0lU&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 72.4991ms
+2025-12-17 12:13:09.568 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:09.568 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:09.569 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:09.569 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "afa1937321524153928ce085f1d95189b1e9445f58024bce8c704c945834292d94374a93cf694ca9bd39300f36d8a94f",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:09.572 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:09.572 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.3132ms
+2025-12-17 12:13:12.339 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=d30b23291c3241d78dd5f12ff403035f&code_challenge=WUms__DDJ8t48gGNI9_TSRshJnAgZb3qmhJPSMhyvRE&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:12.339 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=9c2fd780f1e149f7bf8e36040a03bd91&code_challenge=WLI4YSmPGZoJYNYx8qLbOs0jMsquvbrqwRVazYVDpHc&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:12.340 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:12.340 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:12.340 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "d30b23291c3241d78dd5f12ff403035f",
+  "code_challenge": "WUms__DDJ8t48gGNI9_TSRshJnAgZb3qmhJPSMhyvRE",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:12.340 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "9c2fd780f1e149f7bf8e36040a03bd91",
+  "code_challenge": "WLI4YSmPGZoJYNYx8qLbOs0jMsquvbrqwRVazYVDpHc",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:12.345 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:12.345 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:12.351 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:12.351 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:12.352 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:12.352 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:12.352 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:12.352 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:12.352 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:12.352 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:12.384 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 31.7756ms.
+2025-12-17 12:13:12.384 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 31.7556ms.
+2025-12-17 12:13:12.387 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:12.387 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:12.451 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "9c2fd780f1e149f7bf8e36040a03bd91",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:12.451 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "d30b23291c3241d78dd5f12ff403035f",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:12.451 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 99.4937ms
+2025-12-17 12:13:12.451 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 99.4911ms
+2025-12-17 12:13:12.451 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:12.451 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:12.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=d30b23291c3241d78dd5f12ff403035f&code_challenge=WUms__DDJ8t48gGNI9_TSRshJnAgZb3qmhJPSMhyvRE&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 125.036ms
+2025-12-17 12:13:12.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=9c2fd780f1e149f7bf8e36040a03bd91&code_challenge=WLI4YSmPGZoJYNYx8qLbOs0jMsquvbrqwRVazYVDpHc&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 124.4ms
+2025-12-17 12:13:14.790 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:14.790 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:14.791 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:14.791 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "07f05047b8a84d01b43a382c826669a9c4944eb9240d4c02b6bf6743e1b4ca43b6355d7892f2433bba929863a882c523",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:14.796 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:14.796 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 6.4866ms
+2025-12-17 12:13:15.118 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=1c959c818b1143db9ea5e8215376129a&code_challenge=-AUCGR9DbtLde1PWc_0yiufWtCcFzbAnFduFMH_o9Tg&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:15.119 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:15.120 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "1c959c818b1143db9ea5e8215376129a",
+  "code_challenge": "-AUCGR9DbtLde1PWc_0yiufWtCcFzbAnFduFMH_o9Tg",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:15.125 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:15.133 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:15.133 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:15.133 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:15.135 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:15.170 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 35.1449ms.
+2025-12-17 12:13:15.173 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:15.180 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:15.181 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:15.181 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:15.181 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "f0f8bec51a80442a9b62fefa1e970a5b9e9ece297ac34fc5809b27fd65a80f777de10d39a124409596797666a73b456d",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:15.185 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:15.185 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.7779ms
+2025-12-17 12:13:15.195 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:15.195 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:15.195 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - 204 null null 0.8882ms
+2025-12-17 12:13:15.197 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:15.198 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:15.201 +01:00 [INF] Executing endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:15.205 +01:00 [INF] Route matched with {action = "GetLanguages", controller = "LocalizationService", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Fundanet.Core.Infrastructure.Abstractions.Localization.Language]] GetLanguagesAsync() on controller Fundanet.Core.Server.Localization.LocalizationService (Fundanet.Core.Server).
+2025-12-17 12:13:15.206 +01:00 [INF] Executing action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) - Validation state: "Valid"
+2025-12-17 12:13:15.213 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:15.213 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:15.225 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "1c959c818b1143db9ea5e8215376129a",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:15.226 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 92.7699ms
+2025-12-17 12:13:15.226 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:15.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=1c959c818b1143db9ea5e8215376129a&code_challenge=-AUCGR9DbtLde1PWc_0yiufWtCcFzbAnFduFMH_o9Tg&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 115.3297ms
+2025-12-17 12:13:15.421 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:15.421 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:15.422 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:13:15.425 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:13:15.428 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:13:15.429 +01:00 [INF] Received HTTP response headers after 7.476ms - 200
+2025-12-17 12:13:15.429 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 7.7106ms
+2025-12-17 12:13:15.429 +01:00 [INF] End processing HTTP request after 7.8997ms - 200
+2025-12-17 12:13:15.429 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 7.2676ms
+2025-12-17 12:13:15.621 +01:00 [INF] Received HTTP response headers after 407.4466ms - 200
+2025-12-17 12:13:15.621 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 407.8857ms
+2025-12-17 12:13:15.621 +01:00 [INF] End processing HTTP request after 408.0834ms - 200
+2025-12-17 12:13:15.638 +01:00 [INF] Executed action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 431.3461ms.
+2025-12-17 12:13:15.638 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Fundanet.Core.Infrastructure.Abstractions.Localization.Language, Fundanet.Core.Infrastructure.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 12:13:15.641 +01:00 [INF] Executed action Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) in 436.0042ms
+2025-12-17 12:13:15.641 +01:00 [INF] Executed endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:15.641 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - 200 null application/json; charset=utf-8 444.0412ms
+2025-12-17 12:13:16.208 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=a39abafff6544aac885ff0fcd307422f&code_challenge=3Ta5SKtQMZODnqhH9H5fmGA1rRmoQWrEaGJnVRJgUNQ&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:16.209 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:16.210 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "a39abafff6544aac885ff0fcd307422f",
+  "code_challenge": "3Ta5SKtQMZODnqhH9H5fmGA1rRmoQWrEaGJnVRJgUNQ",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:16.218 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:16.226 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:16.226 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:16.226 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:16.227 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:16.253 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 25.5704ms.
+2025-12-17 12:13:16.255 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:16.286 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "a39abafff6544aac885ff0fcd307422f",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:16.286 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 60.3677ms
+2025-12-17 12:13:16.286 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:16.294 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=a39abafff6544aac885ff0fcd307422f&code_challenge=3Ta5SKtQMZODnqhH9H5fmGA1rRmoQWrEaGJnVRJgUNQ&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 86.1999ms
+2025-12-17 12:13:16.608 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:16.608 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:16.608 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:16.609 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "d440670618374f5a9bb25c4f87a2215892cb24fc4c004b40ac3b9b372a1712bc563bc0d7088a40d88026d9ff036db47c",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:16.613 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:16.614 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 5.8512ms
+2025-12-17 12:13:16.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=daa4a795afc74b20a575b116274aeff5&code_challenge=Fsi7ZDeFqDMESXnKvyTzRaSGiZKG1COi5-MRON1vkxU&code_challenge_method=S256&response_mode=query - null null
+2025-12-17 12:13:16.623 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:16.623 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "daa4a795afc74b20a575b116274aeff5",
+  "code_challenge": "Fsi7ZDeFqDMESXnKvyTzRaSGiZKG1COi5-MRON1vkxU",
+  "code_challenge_method": "S256",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:16.628 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:16.706 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:16.707 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:16.707 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:16.709 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:16.764 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 54.3322ms.
+2025-12-17 12:13:16.774 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:16.827 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "daa4a795afc74b20a575b116274aeff5",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:16.828 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 120.7105ms
+2025-12-17 12:13:16.828 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:16.835 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=daa4a795afc74b20a575b116274aeff5&code_challenge=Fsi7ZDeFqDMESXnKvyTzRaSGiZKG1COi5-MRON1vkxU&code_challenge_method=S256&response_mode=query - 302 0 null 212.1753ms
+2025-12-17 12:13:22.690 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/.well-known/openid-configuration - null null
+2025-12-17 12:13:22.690 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:22.691 +01:00 [INF] The request URI matched a server endpoint: "Configuration".
+2025-12-17 12:13:22.691 +01:00 [INF] The configuration request was successfully extracted: {}.
+2025-12-17 12:13:22.691 +01:00 [INF] The configuration request was successfully validated.
+2025-12-17 12:13:22.695 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "issuer": "https://localhost:44393/",
+  "authorization_endpoint": "https://localhost:44393/connect/authorize",
+  "token_endpoint": "https://localhost:44393/connect/token",
+  "introspection_endpoint": "https://localhost:44393/connect/introspect",
+  "end_session_endpoint": "https://localhost:44393/connect/endsession",
+  "revocation_endpoint": "https://localhost:44393/connect/revocat",
+  "userinfo_endpoint": "https://localhost:44393/connect/userinfo",
+  "device_authorization_endpoint": "https://localhost:44393/device",
+  "jwks_uri": "https://localhost:44393/.well-known/jwks",
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "password",
+    "client_credentials",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "LinkLogin",
+    "Impersonation"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code id_token token",
+    "code token",
+    "id_token",
+    "id_token token",
+    "token",
+    "none"
+  ],
+  "response_modes_supported": [
+    "query",
+    "form_post",
+    "fragment"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "email",
+    "profile",
+    "phone",
+    "roles",
+    "address",
+    "Samples"
+  ],
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "prompt_values_supported": [
+    "consent",
+    "login",
+    "none",
+    "select_account"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "device_authorization_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "claims_parameter_supported": false,
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "tls_client_certificate_bound_access_tokens": false,
+  "authorization_response_iss_parameter_supported": true
+}.
+2025-12-17 12:13:22.695 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/.well-known/openid-configuration - 200 2436 application/json;charset=UTF-8 5.442ms
+2025-12-17 12:13:22.723 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=ea33fddc4d814614a3b215a22dff4149&code_challenge=y3TTIrqT7cq--rPAS30ABX-20DJyWxoXJ_C6469BaWk&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:22.723 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:22.723 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "ea33fddc4d814614a3b215a22dff4149",
+  "code_challenge": "y3TTIrqT7cq--rPAS30ABX-20DJyWxoXJ_C6469BaWk",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:22.727 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:22.736 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:22.736 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:22.736 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:22.738 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:22.766 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 27.2368ms.
+2025-12-17 12:13:22.766 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:22.800 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "ea33fddc4d814614a3b215a22dff4149",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:22.801 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 64.4476ms
+2025-12-17 12:13:22.801 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:22.809 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=ea33fddc4d814614a3b215a22dff4149&code_challenge=y3TTIrqT7cq--rPAS30ABX-20DJyWxoXJ_C6469BaWk&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 86.311ms
+2025-12-17 12:13:23.571 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:23.571 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:23.572 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:23.572 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "199144bb6cce40b68b92f257b50a9353a6a7952619724903a04b575396ef1a3d8da5e2cab3b84d5a85873a9c859c1820",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:23.574 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:23.574 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 2.7889ms
+2025-12-17 12:13:23.662 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - null null
+2025-12-17 12:13:23.662 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:23.662 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - 204 null null 0.458ms
+2025-12-17 12:13:23.665 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - null null
+2025-12-17 12:13:23.666 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:23.670 +01:00 [INF] Executing endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:23.670 +01:00 [INF] Route matched with {action = "GetStringResources", controller = "LocalizationService", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.String]] GetStringResourcesAsync(System.String) on controller Fundanet.Core.Server.Localization.LocalizationService (Fundanet.Core.Server).
+2025-12-17 12:13:23.673 +01:00 [INF] Executing action method Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server) - Validation state: "Valid"
+2025-12-17 12:13:23.673 +01:00 [INF] Executed action method Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0354ms.
+2025-12-17 12:13:23.673 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-17 12:13:23.674 +01:00 [INF] Executed action Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server) in 3.9176ms
+2025-12-17 12:13:23.674 +01:00 [INF] Executed endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetStringResourcesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:23.674 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/app/languages/GetResources?culture=en&api-version=1.0 - 200 null application/json; charset=utf-8 9.607ms
+2025-12-17 12:13:23.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=b171292d5a004d77a740b5412407c7ad&code_challenge=oVaaNzt5EO6fk-BK5jV3Xzse9GOigUb1-3lsr_HUzSk&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:23.912 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:23.912 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "b171292d5a004d77a740b5412407c7ad",
+  "code_challenge": "oVaaNzt5EO6fk-BK5jV3Xzse9GOigUb1-3lsr_HUzSk",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:23.915 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:23.922 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:23.922 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:23.922 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:23.924 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:23.947 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 23.6224ms.
+2025-12-17 12:13:23.950 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:23.978 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "b171292d5a004d77a740b5412407c7ad",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:23.979 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 56.1088ms
+2025-12-17 12:13:23.979 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:23.983 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=b171292d5a004d77a740b5412407c7ad&code_challenge=oVaaNzt5EO6fk-BK5jV3Xzse9GOigUb1-3lsr_HUzSk&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 71.4097ms
+2025-12-17 12:13:24.668 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:24.668 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:24.669 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:24.670 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "1dfbc8f35a3f4d5e92b7ab06c64ba09aa8f7295e973b4f0e95f888881a223fb72c7e5fc2f8cd4ea293e84f6d96da7c5c",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:24.673 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:24.673 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.993ms
+2025-12-17 12:13:24.681 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2025-12-17 12:13:24.682 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:24.682 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 204 null null 0.3244ms
+2025-12-17 12:13:24.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2025-12-17 12:13:24.684 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:24.685 +01:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:24.686 +01:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2025-12-17 12:13:24.689 +01:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2025-12-17 12:13:24.694 +01:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.059ms.
+2025-12-17 12:13:24.694 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2025-12-17 12:13:24.695 +01:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 9.0943ms
+2025-12-17 12:13:24.695 +01:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:24.695 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 200 null application/json; charset=utf-8 11.7828ms
+2025-12-17 12:13:25.063 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=3db95283cb4f4274989b4cbadaa5850d&code_challenge=Rijk4vykMiVI_n7ta9n7jA8csTyTNztvORoR8Kmbp70&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:25.064 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:25.064 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "3db95283cb4f4274989b4cbadaa5850d",
+  "code_challenge": "Rijk4vykMiVI_n7ta9n7jA8csTyTNztvORoR8Kmbp70",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:25.068 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:25.074 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:25.074 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:25.074 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:25.075 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:25.095 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 19.7767ms.
+2025-12-17 12:13:25.097 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:25.124 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "3db95283cb4f4274989b4cbadaa5850d",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:25.124 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 50.0544ms
+2025-12-17 12:13:25.124 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:25.129 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=3db95283cb4f4274989b4cbadaa5850d&code_challenge=Rijk4vykMiVI_n7ta9n7jA8csTyTNztvORoR8Kmbp70&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 66.0122ms
+2025-12-17 12:13:25.440 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:25.441 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:25.442 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:13:25.445 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:13:25.448 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:13:25.448 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 6.9175ms
+2025-12-17 12:13:25.448 +01:00 [INF] Received HTTP response headers after 7.7793ms - 200
+2025-12-17 12:13:25.449 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 8.0232ms
+2025-12-17 12:13:25.449 +01:00 [INF] End processing HTTP request after 8.2729ms - 200
+2025-12-17 12:13:25.968 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:25.968 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:25.968 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:25.969 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "757de66b8f774cc0ab3c0c6a3dd3ba641715f54b82a4498aa284efd47c4df4be32cb0ba32ccd493c90510aa985392c72",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:25.972 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:25.972 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.6756ms
+2025-12-17 12:13:25.980 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2025-12-17 12:13:25.980 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:25.980 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 204 null null 0.3355ms
+2025-12-17 12:13:25.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2025-12-17 12:13:25.982 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:25.984 +01:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:25.984 +01:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2025-12-17 12:13:25.985 +01:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2025-12-17 12:13:25.987 +01:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6415ms.
+2025-12-17 12:13:25.987 +01:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2025-12-17 12:13:25.987 +01:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 2.8397ms
+2025-12-17 12:13:25.987 +01:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-12-17 12:13:25.987 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 200 null application/json; charset=utf-8 5.6167ms
+2025-12-17 12:13:26.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=4b96870eae304cbb919e6ad2bac86f9e&code_challenge=W92yxMmRaiBHhHzzEh99YQNYMUJUALhPXaDm9VtCuP4&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:26.021 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:26.021 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "4b96870eae304cbb919e6ad2bac86f9e",
+  "code_challenge": "W92yxMmRaiBHhHzzEh99YQNYMUJUALhPXaDm9VtCuP4",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:26.024 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:26.028 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:26.028 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:26.028 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:26.029 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:26.053 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 23.9495ms.
+2025-12-17 12:13:26.055 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:26.085 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "4b96870eae304cbb919e6ad2bac86f9e",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:26.085 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 57.0155ms
+2025-12-17 12:13:26.085 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:26.091 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=4b96870eae304cbb919e6ad2bac86f9e&code_challenge=W92yxMmRaiBHhHzzEh99YQNYMUJUALhPXaDm9VtCuP4&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 71.2981ms
+2025-12-17 12:13:26.773 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:26.773 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:26.773 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:26.774 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "cb694175afc54525aaaf494b2b9ae1055cab3685838e471bb3ce8e7529cfff9c469b98941b1f467298ab58024e692488",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:26.776 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:26.777 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 3.8375ms
+2025-12-17 12:13:26.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0a2c0960150748f9b99f74bfda17e297&code_challenge=OD5X9bCQ4XyTFvD4tPxQU7fex9edzQ23hhD20PhaMh0&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:26.828 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:26.828 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "0a2c0960150748f9b99f74bfda17e297",
+  "code_challenge": "OD5X9bCQ4XyTFvD4tPxQU7fex9edzQ23hhD20PhaMh0",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:26.831 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:26.834 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:26.835 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:26.835 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:26.835 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:26.860 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 24.8815ms.
+2025-12-17 12:13:26.862 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:26.890 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "0a2c0960150748f9b99f74bfda17e297",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:26.890 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 55.0494ms
+2025-12-17 12:13:26.890 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:26.894 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0a2c0960150748f9b99f74bfda17e297&code_challenge=OD5X9bCQ4XyTFvD4tPxQU7fex9edzQ23hhD20PhaMh0&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 66.3982ms
+2025-12-17 12:13:27.611 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:27.612 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:27.612 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:27.612 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "18b672dd9a7c4dd3816e87a0f2df748c7464bdc093d84ebb87fc8b2c3c2d3b3c05c48ba2b559423bac7531f7e8e6652f",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:27.615 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:27.615 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 3.8839ms
+2025-12-17 12:13:32.019 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0f1ae5cefeaf441f8abc4dfd0c112c39&code_challenge=Li4P27rkC7uc1rdcFjK8ylQXx3Eoa0GdYwHjBm-mpQo&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:32.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=2857120e90664bf58cd5fe06efff35af&code_challenge=qyXSUyJn3wVqbH9BMEN_cdgAUI_hhH8lzn3GNLJb6i4&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:32.020 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:32.020 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:32.020 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "0f1ae5cefeaf441f8abc4dfd0c112c39",
+  "code_challenge": "Li4P27rkC7uc1rdcFjK8ylQXx3Eoa0GdYwHjBm-mpQo",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:32.020 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "2857120e90664bf58cd5fe06efff35af",
+  "code_challenge": "qyXSUyJn3wVqbH9BMEN_cdgAUI_hhH8lzn3GNLJb6i4",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:32.023 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:32.023 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:32.033 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:32.034 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:32.034 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:32.034 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:32.034 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:32.034 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:32.034 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:32.034 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:32.069 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 34.1548ms.
+2025-12-17 12:13:32.069 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 34.1547ms.
+2025-12-17 12:13:32.069 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:32.069 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:32.103 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "2857120e90664bf58cd5fe06efff35af",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:32.103 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "0f1ae5cefeaf441f8abc4dfd0c112c39",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:32.103 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 69.6732ms
+2025-12-17 12:13:32.103 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 69.6733ms
+2025-12-17 12:13:32.103 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:32.103 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:32.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=2857120e90664bf58cd5fe06efff35af&code_challenge=qyXSUyJn3wVqbH9BMEN_cdgAUI_hhH8lzn3GNLJb6i4&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 92.0158ms
+2025-12-17 12:13:32.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=0f1ae5cefeaf441f8abc4dfd0c112c39&code_challenge=Li4P27rkC7uc1rdcFjK8ylQXx3Eoa0GdYwHjBm-mpQo&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 92.5476ms
+2025-12-17 12:13:32.930 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:32.931 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:32.931 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:32.931 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "5c992278ff964544918b6cf598ee9e287c7d47160e354a4f93c086523a6fdbba5a909d861cf04949b8ea9a95bfe4b2c6",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:32.934 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:32.934 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 3.7737ms
+2025-12-17 12:13:33.038 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:33.039 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:33.040 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:33.040 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "19a63929163742609f89257123c8235fbe0c584089264ce1a4489546f252086273ed68e8225d434fa36127bee022ce6a",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:33.043 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:33.043 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 4.4223ms
+2025-12-17 12:13:33.173 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:33.173 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:33.173 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:33.173 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "5f1819a784c44d0bb73e921b13f4a40c03bd3932a2f94a089cde1859c63fcde68520b3a8b42a4464ad727f22a767922f",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:33.175 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:33.175 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 2.9338ms
+2025-12-17 12:13:33.232 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:33.232 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:33.232 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - 204 null null 0.4014ms
+2025-12-17 12:13:33.234 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:33.234 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:33.236 +01:00 [INF] Executing endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:33.237 +01:00 [INF] Route matched with {action = "GetLanguages", controller = "LocalizationService", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Fundanet.Core.Infrastructure.Abstractions.Localization.Language]] GetLanguagesAsync() on controller Fundanet.Core.Server.Localization.LocalizationService (Fundanet.Core.Server).
+2025-12-17 12:13:33.237 +01:00 [INF] Executing action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) - Validation state: "Valid"
+2025-12-17 12:13:33.238 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:33.238 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:33.324 +01:00 [INF] Received HTTP response headers after 85.5201ms - 200
+2025-12-17 12:13:33.324 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 85.8683ms
+2025-12-17 12:13:33.324 +01:00 [INF] End processing HTTP request after 86.0447ms - 200
+2025-12-17 12:13:33.325 +01:00 [INF] Executed action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 87.088ms.
+2025-12-17 12:13:33.325 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Fundanet.Core.Infrastructure.Abstractions.Localization.Language, Fundanet.Core.Infrastructure.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 12:13:33.325 +01:00 [INF] Executed action Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) in 88.2489ms
+2025-12-17 12:13:33.325 +01:00 [INF] Executed endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:33.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - 200 null application/json; charset=utf-8 91.5657ms
+2025-12-17 12:13:33.873 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=c8d3a3605fcb4069a0e7b5e5e2af5e27&code_challenge=ICWqOr6RDnFll6U7HsCLnHKm4utDuVLrRXXRojUchdY&code_challenge_method=S256&prompt=none&response_mode=query - null null
+2025-12-17 12:13:33.874 +01:00 [INF] The request URI matched a server endpoint: "Authorization".
+2025-12-17 12:13:33.874 +01:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "response_type": "code",
+  "scope": "openid profile Samples roles email phone",
+  "state": "c8d3a3605fcb4069a0e7b5e5e2af5e27",
+  "code_challenge": "ICWqOr6RDnFll6U7HsCLnHKm4utDuVLrRXXRojUchdY",
+  "code_challenge_method": "S256",
+  "prompt": "none",
+  "response_mode": "query"
+}.
+2025-12-17 12:13:33.878 +01:00 [INF] The authorization request was successfully validated.
+2025-12-17 12:13:33.911 +01:00 [INF] Executing endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:33.912 +01:00 [INF] Route matched with {action = "Handle", controller = "Authorize", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] HandleAsync() on controller Volo.Abp.OpenIddict.Controllers.AuthorizeController (Volo.Abp.OpenIddict.AspNetCore).
+2025-12-17 12:13:33.912 +01:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-12-17 12:13:33.913 +01:00 [INF] Executing action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) - Validation state: "Valid"
+2025-12-17 12:13:33.936 +01:00 [INF] Executed action method Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore), returned result Microsoft.AspNetCore.Mvc.SignInResult in 23.2777ms.
+2025-12-17 12:13:33.938 +01:00 [INF] Executing SignInResult with authentication scheme (OpenIddict.Server.AspNetCore) and the following principal: System.Security.Claims.ClaimsPrincipal.
+2025-12-17 12:13:33.967 +01:00 [INF] The authorization response was successfully returned to 'https://localhost:44353/authentication/login-callback' using the query response mode: {
+  "code": "[redacted]",
+  "state": "c8d3a3605fcb4069a0e7b5e5e2af5e27",
+  "iss": "https://localhost:44393/",
+  "culture": "es",
+  "ui-culture": "es"
+}.
+2025-12-17 12:13:33.967 +01:00 [INF] Executed action Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore) in 55.422ms
+2025-12-17 12:13:33.967 +01:00 [INF] Executed endpoint 'Volo.Abp.OpenIddict.Controllers.AuthorizeController.HandleAsync (Volo.Abp.OpenIddict.AspNetCore)'
+2025-12-17 12:13:33.975 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/connect/authorize?client_id=Samples_Blazor&redirect_uri=https%3A%2F%2Flocalhost%3A44353%2Fauthentication%2Flogin-callback&response_type=code&scope=openid%20profile%20Samples%20roles%20email%20phone&state=c8d3a3605fcb4069a0e7b5e5e2af5e27&code_challenge=ICWqOr6RDnFll6U7HsCLnHKm4utDuVLrRXXRojUchdY&code_challenge_method=S256&prompt=none&response_mode=query - 302 0 null 101.8215ms
+2025-12-17 12:13:34.618 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44393/connect/token - application/x-www-form-urlencoded 293
+2025-12-17 12:13:34.618 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:34.618 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2025-12-17 12:13:34.618 +01:00 [INF] The token request was successfully extracted: {
+  "client_id": "Samples_Blazor",
+  "code": "[redacted]",
+  "redirect_uri": "https://localhost:44353/authentication/login-callback",
+  "code_verifier": "a3c4f987c83649f296c96464c9a02decf86556b0ef3449c8afe836976ef764e561d5dec51a634da695dc2798a5e200d6",
+  "grant_type": "authorization_code"
+}.
+2025-12-17 12:13:34.620 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "error": "invalid_grant",
+  "error_description": "The specified token is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2004"
+}.
+2025-12-17 12:13:34.620 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44393/connect/token - 400 161 application/json;charset=UTF-8 2.8508ms
+2025-12-17 12:13:34.626 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:34.626 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:34.626 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44393/api/app/languages/languages?api-version=1.0 - 204 null null 0.2663ms
+2025-12-17 12:13:34.628 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - null null
+2025-12-17 12:13:34.628 +01:00 [INF] CORS policy execution successful.
+2025-12-17 12:13:34.630 +01:00 [INF] Executing endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:34.630 +01:00 [INF] Route matched with {action = "GetLanguages", controller = "LocalizationService", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Fundanet.Core.Infrastructure.Abstractions.Localization.Language]] GetLanguagesAsync() on controller Fundanet.Core.Server.Localization.LocalizationService (Fundanet.Core.Server).
+2025-12-17 12:13:34.631 +01:00 [INF] Executing action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) - Validation state: "Valid"
+2025-12-17 12:13:34.631 +01:00 [INF] Start processing HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:34.631 +01:00 [INF] Sending HTTP request GET https://apim-fnet-prod-we-002.azure-api.net/multitenant/v1/Languages/GetLanguagesByApp?*
+2025-12-17 12:13:34.720 +01:00 [INF] Received HTTP response headers after 88.9735ms - 200
+2025-12-17 12:13:34.720 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 89.1408ms
+2025-12-17 12:13:34.720 +01:00 [INF] End processing HTTP request after 89.2871ms - 200
+2025-12-17 12:13:34.721 +01:00 [INF] Executed action method Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 89.6939ms.
+2025-12-17 12:13:34.721 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Fundanet.Core.Infrastructure.Abstractions.Localization.Language, Fundanet.Core.Infrastructure.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 12:13:34.721 +01:00 [INF] Executed action Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server) in 90.6371ms
+2025-12-17 12:13:34.721 +01:00 [INF] Executed endpoint 'Fundanet.Core.Server.Localization.LocalizationService.GetLanguagesAsync (Fundanet.Core.Server)'
+2025-12-17 12:13:34.721 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44393/api/app/languages/languages?api-version=1.0 - 200 null application/json; charset=utf-8 93.5987ms
+2025-12-17 12:13:35.457 +01:00 [INF] Start processing HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:35.458 +01:00 [INF] Sending HTTP request GET https://localhost:44393/health-status
+2025-12-17 12:13:35.458 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44393/health-status - null null
+2025-12-17 12:13:35.460 +01:00 [INF] Executing endpoint 'Health checks'
+2025-12-17 12:13:35.462 +01:00 [INF] Executed endpoint 'Health checks'
+2025-12-17 12:13:35.462 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44393/health-status - 200 null application/json 3.7305ms
+2025-12-17 12:13:35.462 +01:00 [INF] Received HTTP response headers after 4.3171ms - 200
+2025-12-17 12:13:35.462 +01:00 [INF] Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 4.4541ms
+2025-12-17 12:13:35.462 +01:00 [INF] End processing HTTP request after 4.6003ms - 200
+2025-12-17 12:13:43.380 +01:00 [INF] Application is shutting down...

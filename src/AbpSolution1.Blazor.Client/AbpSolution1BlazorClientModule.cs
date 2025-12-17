@@ -55,11 +55,6 @@ public class AbpSolution1BlazorClientModule : AbpModule
         ConfigureRouter(context);
         ConfigureMenu(context);
         ConfigureAutoMapper(context);
-
-        Configure<WebAssemblyMultiTenantUrlOptions>(options =>
-        {
-            options.DomainFormat = "https://{0}.localhost:44366"; //App:SelfUrl in appsettings.json
-        });
     }
 
     private void ConfigureLocalization()

@@ -33,6 +33,9 @@ using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Bundling;
 using Microsoft.AspNetCore.Hosting;
+using OpenIddict.Server;
+using OpenIddict.Validation;
+using Owl.TokenWildcardIssuerValidator;
 using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Identity;
 using Volo.Abp.OpenIddict;
@@ -70,6 +73,10 @@ public class AbpSolution1HttpApiHostModule : AbpModule
             // Agregar formatos de autoridad para desarrollo local
             options.WildcardDomainsFormat.Add("https://{0}.localhost:44397");
             options.WildcardDomainsFormat.Add("http://{0}.localhost:44397");
+
+            options.WildcardDomainsFormat.Add("http://{0}.localhost:44366/authentication/logout-callback");
+            options.WildcardDomainsFormat.Add("https://{0}.localhost:44366/authentication/logout-callback");
+
             // Para producción, agregar dominios reales:
             // options.WildcardDomainsFormat.Add("https://{0}.midominio.com");
         });
@@ -78,6 +85,18 @@ public class AbpSolution1HttpApiHostModule : AbpModule
         {
             builder.AddValidation(options =>
             {
+                options.Configure(x =>
+                {
+                    x.TokenValidationParameters.ValidateIssuer = false;
+                    x.TokenValidationParameters.IssuerValidator = TokenWildcardIssuerValidator.IssuerValidator;
+                    x.TokenValidationParameters.ValidIssuers = new[]
+                    {
+                        "http://localhost:44397/",
+                        "https://localhost:44397/",
+                        "http://{0}.localhost:44397",
+                        "https://{0}.localhost:44397"
+                    };
+                });
                 options.AddAudiences("AbpSolution1");
                 options.UseLocalServer();
                 options.UseAspNetCore();
@@ -116,7 +135,7 @@ public class AbpSolution1HttpApiHostModule : AbpModule
             {
                 options.DisableTransportSecurityRequirement = true;
             });
-            
+
             Configure<ForwardedHeadersOptions>(options =>
             {
                 options.ForwardedHeaders = ForwardedHeaders.XForwardedProto;
@@ -271,7 +290,7 @@ public class AbpSolution1HttpApiHostModule : AbpModule
         {
             app.UseErrorPage();
         }
-        
+
         app.MapAbpStaticAssets();
         app.UseAbpStudioLink();
         app.UseRouting();
